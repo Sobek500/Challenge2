@@ -1,0 +1,117 @@
+* {
+    margin:0;
+    padding:0;  
+  }
+
+  body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 22px;
+    background-color: #eaf4d6;
+    color: #57781b;
+  }
+  
+  a {
+    color: #82df47;;
+  }
+
+  h1 {
+    margin: 10px 10px 10px 20px;
+    color: #82df47;
+    padding: 10px;
+  }
+
+  ul {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+    padding: 10px;
+  }
+
+  section {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+  
+  }
+  
+  header,
+  footer {
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150;
+  }
+  
+  header {
+    display: flex;
+    border-top: 10px dashed #57781b;
+    border-bottom: 7px dotted #e0614b;
+    padding-bottom: 20px;
+    height: 130px;
+  }
+  
+  footer {
+    height: 80px;
+    margin-top: 0;
+    border-top: 7px dotted #e0614b;
+    border-bottom: 10px dashed #57781b;
+    color: #82df47;  
+    text-align: center;  
+  }
+  
+  p {
+    margin: 20px;
+  }
+
+  #work {
+    align-items: center;
+  }
+  
+  a 
+
+  #first {
+    margin: 10px;
+    width: 880px;
+    height: 650px;
+  }
+
+  #firstWork {
+    display: block;
+    width: 847px;
+    height: 633px;
+  }
+
+  #pfp {
+    flex: 90px 90px;;
+    width: 90px;
+    height: 90px;
+  }
+
+  img {
+    display: inline;
+    margin: 10px;
+    width: 410px;
+    height: 410px;
+  }
+
+  @media screen and (min-width: 768px) {
+    a {
+      flex: 1 1 50%;
+      max-width: 50%;
+    }
+    #first {
+      width: 50%;
+      height: 50%;
+    }
+  }
